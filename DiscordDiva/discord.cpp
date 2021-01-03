@@ -637,7 +637,7 @@ void ChangeActivity(int isPlaying, char* songName, int isPV, Difficulty difficul
 		strcpy_s(activity.details, "Waiting for a song!");
 		if (showRivalId && accountid != 4294967295)
 		{
-			sprintf_s(activity.state, "Rival iD: %i", accountid);
+			sprintf_s(activity.state, "Rival ID: %i", accountid);
 		}
 		strcpy_s(activity.assets.small_image, "None");
 		
@@ -939,7 +939,7 @@ void ChangeActivity2(int isPlaying, char* songName, int isPV, Difficulty difficu
 		strcpy_s(activity.details, "Waiting for a song!");
 		if (showRivalId && accountid != 4294967295)
 		{
-			sprintf_s(activity.state, "Rival iD: %i", accountid);
+			sprintf_s(activity.state, "Rival ID: %i", accountid);
 		}
 		strcpy_s(activity.assets.small_image, "None");
 
