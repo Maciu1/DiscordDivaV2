@@ -700,7 +700,7 @@ void ChangeActivity2(int isPlaying, char* songName, int isPV, Difficulty difficu
 
 
 	/*strcpy_s(activity.assets.large_image, "icon");*/
-	/*strcpy_s(activity.assets.large_text, "Hatsune Miku: Project DIVA Arcade Future Tone");*/
+	/*strcpy_s(activity.assets.large_text, "Project DIVA Arcade Future Tone");*/
 	if (isPlaying)
 	{
 		// song name
